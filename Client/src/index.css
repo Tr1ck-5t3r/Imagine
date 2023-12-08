@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Kalam:wght@700&display=swap');
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(45deg ,#0e1218, rgb(19, 36, 62), #0e1218);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: rgb(19, 56, 115);
+}
+
+button:hover {
+  background-color: rgb(17, 70, 144);
+}
+::-webkit-scrollbar{
+  display: none;
+}
